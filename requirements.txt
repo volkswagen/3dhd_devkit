@@ -1,0 +1,15 @@
+matplotlib==3.5.2
+numba==0.55.1
+numpy==1.21.6
+Pillow==9.3.0
+torch==1.6.0
+tqdm==4.64.0
+utm==0.7.0
+PyYAML==6.0
+mlflow==1.25.1
+tensorboard==2.10.1
+shapely==1.8.4
+pptk==0.1.0
+vtk==9.1.0
+mayavi==4.7.4
+pyside2==5.15.2.1
