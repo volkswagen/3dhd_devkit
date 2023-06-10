@@ -2,7 +2,7 @@ matplotlib==3.5.2
 numba==0.55.1
 numpy==1.21.6
 Pillow==9.3.0
-torch==1.6.0
+torch==1.13.1
 tqdm==4.64.0
 utm==0.7.0
 PyYAML==6.0
