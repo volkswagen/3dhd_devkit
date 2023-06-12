@@ -1,6 +1,6 @@
 # 3DHD DevKit
 
-![map_fm_d](https://github.com/volkswagen/3dhd_devkit/assets/113357338/17172f43-5d32-4e29-9566-699defd02b4a)
+![map_fm_d](https://github.com/volkswagen/3dhd_devkit/assets/113357338/b97ed7ce-35c9-4223-97c3-1f72a01e2508)
 
 The 3DHD DevKit comprises our entire deep learning pipeline
 for LiDAR-based **3D map element recognition** and **map deviation detection**.
@@ -142,7 +142,7 @@ This notification is meant to create user expectations appropriate to code devel
 
 # **1. 3D Map Element Recognition**
 
-![image](https://github.com/volkswagen/3dhd_devkit/assets/113357338/8cff49d0-d149-439a-baf4-4762ddd81359)
+![element_recognition_b](https://github.com/volkswagen/3dhd_devkit/assets/113357338/aa6c3aa7-eb0d-499a-bfd5-4084ce4db6a6)
 
 The 3D map element recognition pipeline recognizes (detects and classifies) traffic lights, traffic signs, and poles in LiDAR data.
 
@@ -228,7 +228,7 @@ cfg = {
 
 # **2. Map Deviation Detection**
 
-![deviation_detection](https://github.com/volkswagen/3dhd_devkit/assets/113357338/900723c8-1073-4a98-919b-b0645010342d)
+![deviation_detection](https://github.com/volkswagen/3dhd_devkit/assets/113357338/6b32c34a-b266-4c46-8be0-582616389c78)
 
 Our map deviation detection method takes both sensor and map data as input
 to detect deviations. 
@@ -326,7 +326,7 @@ Second, the framework provides a dataset viewer for 3DHD CityScenes.
 
 ## 3.1 Sample Viewer
 
-![sample_viewer](https://github.com/volkswagen/3dhd_devkit/assets/113357338/183475bd-006c-4c5d-8fc8-92ac2d03c4b8)
+![sample_viewer](https://github.com/volkswagen/3dhd_devkit/assets/113357338/f4c02d83-3107-468e-afc0-3fb5cca69aa0)
 
 Regarding predictions produced by the element recognition pipeline, elements are colored by default according to their evaluation result:
 true positive (TP, green), false positive (FP, cyan), false negative (FN, red). Associated ground truth (GT) objects are depicted in gray.
@@ -360,7 +360,7 @@ Note that before visualizing predictions, inference must be performed for the de
 
 ## 3.2 Dataset Viewer
 
-![viewer](https://github.com/volkswagen/3dhd_devkit/assets/113357338/d6b7bfe4-3449-4a2c-a6ca-33fb9412e19c)
+![dataset_viewer](https://github.com/volkswagen/3dhd_devkit/assets/113357338/b02ba42e-ac61-4668-ad2c-96f82491459c)
 
 To plainly visualize the point cloud and HD map data provided by 3DHD CityScenes, 
 you can utilize ```visualization.dataset_viewer.py```.
@@ -375,7 +375,7 @@ python dataset_viewer.py
 
 ## 3.3 Point Cloud Viewer
 
-![pc_viewer](https://github.com/volkswagen/3dhd_devkit/assets/113357338/2686e507-94da-48c2-9c8a-9eb3d7722cb8)
+![pc_viewer](https://github.com/volkswagen/3dhd_devkit/assets/113357338/26d85cb1-de99-4d0f-82d3-77ee542bf73f)
 
 If you only want to visualize point clouds, we provide ```visualization.point_cloud_viewer.py``` to display point cloud tiles.
 In ```run_visualize_binary_point_cloud()``` you can choose between two visualization frameworks: pptk or Mayavi. 
