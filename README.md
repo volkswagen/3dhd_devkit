@@ -251,7 +251,7 @@ python deviation_exporter.py
 Using our benchmark, our specialized network for map deviation detection (MDD-M, eq. dd-s3-60m in ```_networks```) using the additional map input 
 and the classification of evaluation states (VER, DEL, INS, or SUB) achieves: 
 
-| **Method**  | **VER (F1)** | **DEV (F1)** | **E(pos)**  | **E(w)** | **E(d)** | **E(h)** | **E(phi)**
+| **Type**  | **VER (F1)** | **DEV (F1)** | **E(pos)**  | **E(w)** | **E(d)** | **E(h)** | **E(phi)**
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Lights  | 0.99 | 0.87 | 5.8 cm | 2.3 cm | - | 5.3 cm | 4.4° |
 | Poles  | 0.99 | 0.81 | 5.0 cm | - | 2.7 cm | - | - |
