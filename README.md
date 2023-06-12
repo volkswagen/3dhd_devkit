@@ -28,7 +28,7 @@ When using our DevKit, you are welcome to cite [[Link](https://www.researchgate.
    journal = {IEEE Open Journal of Intelligent Transportation Systems (preprint)}}
 ```
 
-If you use our datset, please cite [[Link](https://www.researchgate.net/publication/364309881_3DHD_CityScenes_High-Definition_Maps_in_High-Density_Point_Clouds)]:
+If you use our dataset, please cite [[Link](https://www.researchgate.net/publication/364309881_3DHD_CityScenes_High-Definition_Maps_in_High-Density_Point_Clouds)]:
 ```
 @INPROCEEDINGS{9921866,
    author={Plachetka, Christopher and Sertolli, Benjamin and Fricke, Jenny and Klingner, Marvin and Fingscheidt, Tim},
