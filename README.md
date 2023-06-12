@@ -191,7 +191,7 @@ python run_training.py --experiment "ed-l-3dhdnet-60m" --configured_element_type
 python run_training.py --experiment "ed-p-3dhdnet-60m" --configured_element_types poles --batch_size 1 --fm_extent -10 50.8 -20 20 -2 7.6 || pkill python
 python run_training.py --experiment "ed-s-3dhdnet-60m" --configured_element_types signs --batch_size 1 --fm_extent -10 50.8 -20 20 -2 7.6 || pkill python
 ##
-## Multitask element detection with {3DHDNet, PointPilalrs, VoxelNet} 60m
+## Multitask element detection with {3DHDNet, PointPillars, VoxelNet} 60m
 python run_training.py --experiment "ed-lps-3dhdnet-60m" --batch_size 1 --fm_extent -10 50.8 -20 20 -2 7.6 || pkill python
 python run_training.py --experiment "ed-lps-pointpillars-60m" --batch_size 1 --fm_extent -10 50.8 -20 20 -2 7.6 --voxel_size .2 .2 9.6 --min_points_per_voxel 1 --max_points_per_voxel 100 --vfe_class_name "PillarFeatureNet" --vfe_num_filters 64 --middle_class_name "PointPillarsScatter" --bb_num_upsample_filters 256 256 256 --use_3d_backbone False --use_3d_heads False --set_anchor_layers_like_voxels False --use_amp False || pkill python
 python run_training.py --experiment "ed-lps-voxelnet-60m" --batch_size 1 --fm_extent -10 50.8 -20 20 -2 7.6 --voxel_size .2 .2 .4 --min_points_per_voxel 1 --max_points_per_voxel 24 --vfe_class_name 'VoxelFeatureExtractor' --vfe_num_filters 32 128 --middle_class_name 'MiddleExtractor' --bb_num_filters 128 128 256 --bb_num_upsample_filters 256 256 256 --use_3d_backbone False --use_3d_heads False --use_amp False || pkill python
