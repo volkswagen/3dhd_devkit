@@ -198,7 +198,7 @@ python run_training.py --experiment "ed-lps-voxelnet-60m" --batch_size 1 --fm_ex
 ```
 Training requires two days using a 60 m extent in x-dimension and a batch size of 1 employing two GPUs (effective batch size being 2).
 
-Alternatively, we provide the trained experiment "er-lps-3dhdnet-60m" in "_networks", 
+Alternatively, we provide the trained experiment "er-lps-3dhdnet-60m" in ```_networks```, 
 capable of recognizing lights, poles, and signs simultaneously. 
 First, unpack the experiment into your ```log``` directory specified in ```system_paths.py```.
 To produce the results in Section 1.1, run:
