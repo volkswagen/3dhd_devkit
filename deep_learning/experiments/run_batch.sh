@@ -38,5 +38,3 @@ python run_training.py --experiment "dd-s2-30m-occ-75" --dd_stage 2 --occlusion_
 python run_training.py --experiment "dd-s1-30m-occ-25" --dd_stage 1 --occlusion_prob 0.25 --any_elements_per_sample_min 1 || pkill python
 python run_training.py --experiment "dd-s1-30m-occ-50" --dd_stage 1 --occlusion_prob 0.50 --any_elements_per_sample_min 1 || pkill python
 python run_training.py --experiment "dd-s1-30m-occ-75" --dd_stage 1 --occlusion_prob 0.75 --any_elements_per_sample_min 1 || pkill python
-## Idle
-python run_training.py --experiment "id" --num_epochs 100 --dd_stage 3 --batch_size 1 --fm_extent -10 60.4 -20 20 -2 7.6 || pkill python
