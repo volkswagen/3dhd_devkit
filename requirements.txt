@@ -6,7 +6,7 @@ torch==1.6.0
 tqdm==4.64.0
 utm==0.7.0
 PyYAML==6.0
-mlflow==1.25.1
+mlflow==2.5.0
 tensorboard==2.10.1
 shapely==1.8.4
 pptk==0.1.0
